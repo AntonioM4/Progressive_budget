@@ -1,7 +1,7 @@
 let db;
 let budgetVersion;
 
-const request = indexedDB.open('budget_tracker', budgetVersion);
+const request = indexedDB.open('budget_app', budgetVersion);
 
 request.onupgradeneeded = function(e) {
 
