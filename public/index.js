@@ -1,5 +1,6 @@
 let transactions = [];
 let myChart;
+const axios = require('axios').default;
 
 fetch("/api/transaction")
   .then(response => {
